@@ -1,5 +1,5 @@
 {% set name = "pulumi-sdks" %}
-{% set version = "3.127.0" %}
+{% set version = "3.129.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pulumi/pulumi/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 3229933e3319cc41c617e1341d6b728047bd34b69ff3e8a96fd0169a3c459597
+  sha256: 20e03345975a13b10d4f93aaa77fd941ef6da5034b72d64307f567237f7487c6
 
 build:
   number: 0
